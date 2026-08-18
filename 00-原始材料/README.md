@@ -32,4 +32,4 @@ shasum -a 256 中国平安_年报_2025.pdf
 
 能跑大部分。从 PDF 提取出来的结构化数据已经固化在 `01-数据/` 的 CSV 和 `02-脚本/build_stage4_report_v2_data.py` 的常量里，所以生成报告那一步不需要原件。
 
-需要原件的只有阶段 2 的取数与回查脚本（`build_stage2_data.py`、`verify_stage2_audit.py`），把下载好的文件按清单里的文件名放回本目录即可。详见根目录 README 的「复现」一节。
+需要原件的只有阶段 2 的取数与回查脚本（`build_stage2_data.py`、`verify_stage2_audit.py`），把下载好的文件按清单里的文件名放回本目录即可。详见根目录 README 的「重建报告」一节。
